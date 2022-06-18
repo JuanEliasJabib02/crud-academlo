@@ -1,0 +1,48 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ 
+}
+
+.App {
+  text-align: center;
+  border: 8px solid green;
+  background-color:#023e8a ;
+  height: 100vh;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.form{
+  border: 8px solid yellow;
+  width: 25%;
+  margin-top:2rem;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.user-list{
+  border: 8px solid blue;
+  width: 25%;
+  margin-top: 2rem;
+  height: 90%;
+  display:flex;
+  flex-direction:column;
+  justify-content:center
+}
+
+
+
+.names{
+  border: 8px solid black;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  justify-content: space-around;
+  height: 8b  mm  rem;
+}
